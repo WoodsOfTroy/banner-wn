@@ -1,0 +1,54 @@
+.banner {
+  max-height: 350px;
+}
+div {
+  height: 300px;
+  width: 25rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#img0 {
+  clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
+  width: 43%;
+}
+#img1 {
+  clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  width: 20%;
+  margin-left: -81px;
+}
+#img2 {
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+  width: 20%;
+  margin-left: -81px;
+}
+/* #img0.opened {
+     clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
+     width: 43%;
+   }
+   #img0.closed {
+     clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+     width: 20%;
+   }
+   #img1.opened {
+     clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+     width: 43%;
+     margin-left: -81px;
+   }
+   #img1.closed {
+     clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+     width: 20%;
+     margin-left: -81px;
+   }
+   #img2.opened {
+     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+   
+     width: 43%;
+     margin-left: -81px;
+   }
+   #img2.closed {
+     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+   
+     width: 20%;
+     margin-left: -81px;
+   } */

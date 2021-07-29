@@ -1,17 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { BannerService } from './services/banner.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [BannerService],
 })
-export class AppComponent implements OnInit {
-  images: string[] = [];
-
-  constructor(private bannerService: BannerService) {}
-  ngOnInit() {
-    this.images = this.bannerService.getBannerImages();
-  }
+export class AppComponent {
+  bannerImages = [
+    '../../assets/images/img1.webp',
+    '../../assets/images/img2.webp',
+    '../../assets/images/img3.webp',
+  ];
 }

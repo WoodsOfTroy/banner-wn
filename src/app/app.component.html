@@ -1,8 +1,2 @@
-<section class="banner">
-  <div
-    *ngFor="let img of images; let i = index"
-    style="background-image: url({{ img }})"
-    id="img{{ i }}"
-    class="img"
-  ></div>
-</section>
+<app-banner [images]="bannerImages"></app-banner>
+<app-banner [images]="bannerImages"></app-banner>
