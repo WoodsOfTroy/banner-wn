@@ -39,16 +39,3 @@ div {
   margin-left: -81px;
   background-size: cover;
 }
-/*    
-   #img1.closed {
-     clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
-     width: 20%;
-     margin-left: -81px;
-   }
-   
-   #img2.closed {
-     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
-   
-     width: 20%;
-     margin-left: -81px;
-   } */

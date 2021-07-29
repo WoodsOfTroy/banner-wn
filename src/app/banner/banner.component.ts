@@ -14,8 +14,6 @@ export class BannerComponent {
     this.activeImage = index;
 
     if (event.target.className == 'opened') {
-      console.log('FUCK');
-
       window.location.href = '.';
     }
   }
