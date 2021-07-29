@@ -1,5 +1,10 @@
 <section class="banner">
-  <img *ngFor="let img of images" [src]="img" id="img1" alt="img" />
+  <div
+    *ngFor="let img of images"
+    style="background-image: url({{ img }})"
+    id="img1"
+    alt="img"
+  ></div>
   <!-- <img src="../assets/images/img2.jpeg" id="img2" alt="img" />
   <img src="../assets/images/img1.jpeg" id="img3" alt="img" /> -->
 </section>
