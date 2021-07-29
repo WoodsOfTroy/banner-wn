@@ -13,6 +13,5 @@ export class AppComponent implements OnInit {
   constructor(private bannerService: BannerService) {}
   ngOnInit() {
     this.images = this.bannerService.getBannerImages();
-    console.log(this.images);
   }
 }
