@@ -10,7 +10,13 @@ export class BannerComponent {
 
   activeImage: number = 0;
 
-  bannerClick(index: any) {
+  bannerClick(index: number, event: any) {
     this.activeImage = index;
+
+    if (event.target.className == 'opened') {
+      console.log('FUCK');
+
+      window.location.href = '.';
+    }
   }
 }

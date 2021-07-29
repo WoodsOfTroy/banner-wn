@@ -2,50 +2,50 @@
   max-height: 350px;
 }
 div {
-  height: 300px;
-  width: 25rem;
   display: inline-block;
-  background-repeat: no-repeat;
   background-size: cover;
+  height: 300px;
+  transition: 0.5s;
 }
 #img0 {
-  clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
-  width: 43%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  width: 244px;
 }
 #img1 {
   clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
-  width: 20%;
+  width: 244px;
+
   margin-left: -81px;
 }
 #img2 {
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
-  width: 20%;
+  width: 244px;
+
   margin-left: -81px;
 }
-/* #img0.opened {
-     clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
-     width: 43%;
-   }
-   #img0.closed {
-     clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
-     width: 20%;
-   }
-   #img1.opened {
-     clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
-     width: 43%;
-     margin-left: -81px;
-   }
+
+#img0.opened {
+  clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
+  width: 522px;
+}
+#img1.opened {
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  width: 522px;
+  margin-left: -81px;
+}
+#img2.opened {
+  clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
+  width: 522px;
+  margin-left: -81px;
+  background-size: cover;
+}
+/*    
    #img1.closed {
      clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
      width: 20%;
      margin-left: -81px;
    }
-   #img2.opened {
-     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
    
-     width: 43%;
-     margin-left: -81px;
-   }
    #img2.closed {
      clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
    
