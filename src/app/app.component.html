@@ -1,5 +1,5 @@
 <section class="banner">
-  <img src="../assets/images/img1.jpeg" id="img1" alt="img" />
-  <img src="../assets/images/img2.jpg" id="img2" alt="img" />
-  <img src="../assets/images/img3.jpg" id="img3" alt="img" />
+  <img *ngFor="let img of images" [src]="img" id="img1" alt="img" />
+  <!-- <img src="../assets/images/img2.jpeg" id="img2" alt="img" />
+  <img src="../assets/images/img1.jpeg" id="img3" alt="img" /> -->
 </section>
