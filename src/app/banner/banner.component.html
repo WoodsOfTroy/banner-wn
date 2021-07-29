@@ -1,0 +1,9 @@
+<section class="banner">
+  <div
+    *ngFor="let img of images; let i = index"
+    style="background-image: url({{ img }})"
+    id="img{{ i }}"
+    (click)="bannerClick(i, $event)"
+    [class.opened]="i == activeImage"
+  ></div>
+</section>
