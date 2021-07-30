@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   bannerImages = [
-    '../../assets/images/img1.webp',
-    '../../assets/images/img2.webp',
-    '../../assets/images/img3.webp',
+    'assets/images/img1.webp',
+    'assets/images/img2.webp',
+    'assets/images/img3.webp',
+    'assets/images/img3.webp',
   ];
 }

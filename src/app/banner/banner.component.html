@@ -2,10 +2,9 @@
 <section class="banner">
   <div
     *ngFor="let img of images; let i = index"
-    style="background-image: url({{ img }})"
-    class="img{{ i }}"
+    [ngStyle]="{'background-image': 'url(' + img + ')'}"
+    class="banner_img{{ i }}"
     (click)="bannerClick(i, $event)"
-    [class.opened]="i == activeImage"
-    [class.closing]="i == images.length - 1"
+    [ngClass]="{ opened: i == activeImage, banner_closing_img: i == images.length - 1 }"
   ></div>
 </section>
