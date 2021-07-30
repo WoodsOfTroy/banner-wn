@@ -12,7 +12,6 @@ export class BannerComponent {
 
   bannerClick(index: number, event: any) {
     this.activeImage = index;
-    console.dir(event);
 
     if (event.target.className.includes('opened')) {
       window.location.href = 'https://www.google.com';
