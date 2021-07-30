@@ -30,12 +30,18 @@ div {
   clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
   width: 522px;
 }
-.img1.opened {
+.img1.opened,
+.img2.opened {
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
   width: 522px;
   margin-left: -81px;
 }
-.img2.opened {
+.closing {
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  width: 244px;
+  margin-left: -81px;
+}
+.closing.opened {
   clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
   width: 522px;
   margin-left: -81px;

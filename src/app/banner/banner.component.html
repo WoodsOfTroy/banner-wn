@@ -6,5 +6,6 @@
     class="img{{ i }}"
     (click)="bannerClick(i, $event)"
     [class.opened]="i == activeImage"
+    [class.closing]="i == images.length - 1"
   ></div>
 </section>
